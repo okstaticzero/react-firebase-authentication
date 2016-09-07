@@ -6,7 +6,7 @@ Demo: http://react-fire-auth.zerostatic.com/
 - Authentication and real-time database using Firebase
 - Sign in using Email, Facebook or Google, with ability to add more social logins.
 - Protected and unprotected Routes with React Router
-- Lost password functionality
+- Lost/reset password functionality
 - Login/Logout Functionality
 - Validates email client side
 - ES6 syntax

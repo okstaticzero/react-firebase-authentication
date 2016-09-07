@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.dash-btn{
+	margin-right: 20px;
+}
+.form-inline .form-control {
+	width: 30% !important;
+	display: inline-block;
+}
+.note-title{
+	margin-bottom: -5px;
+}
+.note{
+	margin-bottom: 8px;
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.5em !important;
+    }
+    .form-inline .form-control {
+		width: 60% !important;
+    }
+    p{
+    	font-size: 11px;
+    }
+}

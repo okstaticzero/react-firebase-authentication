@@ -16,6 +16,7 @@ Demo: http://react-fire-auth.zerostatic.com/
 - Add your Firebase app configurations to file: src/firebase/Firebase.js
 - For facebook login, follow instructions here: https://firebase.google.com/docs/auth/web/facebook-login
 - Run: npm start and open http://localhost:3000
+- To create production build: npm run build
 
 ## Built using:
 - create-react-app build tool: https://github.com/facebookincubator/create-react-app

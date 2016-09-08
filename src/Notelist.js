@@ -6,7 +6,7 @@ class Notelist extends Component {
     var list = this.props.items.map( (item) => {
       return <Note key={item.key} item={item} />
     });
-    return <div>{list}</div>;
+    return <div>{list.reverse()}</div>;
   }
 }
 

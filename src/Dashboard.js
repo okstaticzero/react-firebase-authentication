@@ -50,8 +50,10 @@ class Dashboard extends Component {
 		          	<button type="submit" className="btn btn-default">Submit</button>
 		        </form>
 		        <br/> <br/>
-		        <h4>My Notes: </h4>
-		         <Notelist items={this.state.notes.reverse()} />
+		        <div>
+		        	<h4>My Notes: </h4>
+		         	<Notelist items={this.state.notes} />
+		        </div> 	
 		     </div>     
       </div>
     );

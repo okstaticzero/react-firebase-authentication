@@ -3,6 +3,38 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 0px;
+  color: white;
+  padding: 10px 0;
+}
+.App-header h4{
+	display: inline-block;
+}
+h4{
+  margin: 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+.App-header .btn-github{
+	width:160px;
+	margin: 0;
+	position: 0;
+	display: inline-block;
+	margin-left: 15px;
+}
+.App-header .btn-github:hover {
+    color: #fff;
+ }
+
 .dash-btn{
 	margin-right: 20px;
 }
@@ -10,11 +42,11 @@ body {
 	width: 30% !important;
 	display: inline-block;
 }
-.note-title{
-	margin-bottom: -5px;
-}
 .note{
 	margin-bottom: 8px;
+}
+.Navbar{
+	margin-top: 15px;
 }
 @media screen and (max-width: 767px) {
     h1 {
